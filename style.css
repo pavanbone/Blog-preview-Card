@@ -1,0 +1,119 @@
+/* # Front-end Style Guide  */
+
+/* ## Layout */
+
+/* The designs were created to the following widths: */
+
+/* - Mobile: 375px */
+/* - Desktop: 1440px */
+
+/* > 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens. */
+
+/* ## Colors */
+
+/* - Yellow: hsl(47, 88%, 63%) */
+
+/* - White: hsl(0, 0%, 100%) */
+
+/* - Gray 500: hsl(0, 0%, 42%) */
+/* - Gray 950: hsl(0, 0%, 7%) */
+
+/* ## Typography */
+
+/* ### Body Copy */
+
+/* - Font size (paragraph): 16px */
+
+/* ### Font */
+
+/* - Family: [Figtree](https://fonts.google.com/specimen/Figtree) */
+/* - Weights: 500, 800 */
+
+/* > 💎 This is a free+ challenge. So, if you want to see all the design details and practice working with professional tools like Figma, you can download the design file from where you downloaded the starter code. */
+
+    
+@import url('https://fonts.google.com/specimen/Figtree');
+/* @import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Figtree:ital,wght@0,300..900;1,300..900&family=Orbitron:wght@400..900&display=swap'); */
+  
+  body {
+    font-family: "Coral Pixels", serif;
+    font-weight: 500;
+    font-style: normal;
+    /* font-family: Arial, sans-serif; */
+    background: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 15px;                  
+    max-width: 320px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 5px 5px 0px black;
+    transition: 0.3s ease;
+  }
+  
+  .card-image {
+    width: 90%;
+    margin: 20px;
+    /* margin-top: px; */
+    margin-bottom: 2px;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .badge {
+    display: inline-block;
+    background: #facc15;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  
+  .date {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .author {
+    display: flex;
+    align-items: center;
+  }
+  
+  .author-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .author-name {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
